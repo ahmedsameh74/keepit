@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "shop": "Shop",
+    "bookEvent": "Book an Event",
+    "login": "Login"
+  },
+  "hero": {
+    "title": "Keep It",
+    "subtitle": "It?! Keep your memories forever."
+  },
+  "products": {
+    "title": "Best Selling NFC Gifts",
+    "buyNow": "Buy Now"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "nav": {
+    "shop": "المتجر",
+    "bookEvent": "احجز فعالية",
+    "login": "تسجيل الدخول"
+  },
+  "hero": {
+    "title": "Keep It",
+    "subtitle": ""
+  },
+  "products": {
+    "title": "أفضل هدايا NFC مبيعاً",
+    "buyNow": "اشتري الآن"
+  }
+}
