@@ -12,6 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   const dict = await getDictionary(lang);
   
   return {
+    metadataBase: new URL("https://keepit.com"),
     title: dict.seo.title,
     description: dict.seo.description,
     openGraph: {
