@@ -2,6 +2,8 @@ import { getDictionary } from "../../dictionaries/getDictionary";
 import Navbar from "../../components/Navbar";
 import Hero from "../../components/Hero";
 import ProductGrid from "../../components/ProductGrid";
+import BookEventSection from "../../components/BookEventSection";
+import Footer from "../../components/Footer";
 
 export default async function Page({
   params,
@@ -12,10 +14,12 @@ export default async function Page({
   const dict = await getDictionary(lang);
 
   return (
-    <main className="min-h-screen bg-[var(--background)]">
+    <main className="min-h-screen relative bg-transparent">
       <Navbar dict={dict} lang={lang} />
       <Hero dict={dict} />
       <ProductGrid dict={dict} />
+      <BookEventSection dict={dict} lang={lang} />
+      <Footer dict={dict} lang={lang} />
     </main>
   );
 }

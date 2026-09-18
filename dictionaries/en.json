@@ -11,5 +11,45 @@
   "products": {
     "title": "Best Selling NFC Gifts",
     "buyNow": "Buy Now"
+  },
+  "login": {
+    "title": "Welcome Back",
+    "subtitle": "Please enter your details to sign in",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "Enter your email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "submit": "Sign In",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "signUp": "Sign up"
+  },
+  "bookEvent": {
+    "title": "Book an Event",
+    "subtitle": "Schedule your next interactive experience",
+    "nameLabel": "Full Name",
+    "namePlaceholder": "Enter your full name",
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "Enter your email",
+    "eventTypeLabel": "Event Type",
+    "dateLabel": "Event Date",
+    "guestsLabel": "Number of Guests",
+    "guestsPlaceholder": "e.g. 50",
+    "submit": "Book Event"
+  },
+  "shopHeader": {
+    "title": "The Shop",
+    "subtitle": "Explore our premium NFC collection"
+  },
+  "footer": {
+    "title": "KEEP IT",
+    "description": "Premium NFC Experiences",
+    "links": "Quick Links",
+    "social": "Connect",
+    "rights": "© 2026 Keep It. All rights reserved."
+  },
+  "seo": {
+    "title": "Keep It - Keep your memories forever.",
+    "description": "Experience the future of digital networking with Keep It's premium NFC cards and interactive platform."
   }
 }

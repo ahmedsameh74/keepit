@@ -5,10 +5,49 @@ import "../globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const cairo = Cairo({ subsets: ["arabic"], variable: "--font-cairo" });
 
-export const metadata: Metadata = {
-  title: "Keep It - NFC Experience",
-  description: "High-fidelity interactive landing page for Keep It",
-};
+import { getDictionary } from "../../dictionaries/getDictionary";
+
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  const dict = await getDictionary(lang);
+  
+  return {
+    title: dict.seo.title,
+    description: dict.seo.description,
+    openGraph: {
+      title: dict.seo.title,
+      description: dict.seo.description,
+      type: "website",
+      url: "https://keepit.com", // Replace with actual domain
+      images: [
+        {
+          url: "/logo.png",
+          width: 800,
+          height: 600,
+          alt: "Keep It Logo",
+        },
+      ],
+      locale: lang === "ar" ? "ar_EG" : "en_US",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: dict.seo.title,
+      description: dict.seo.description,
+      images: ["/logo.png"],
+    },
+    icons: {
+      icon: [
+        { url: '/16×16.png', sizes: '16x16', type: 'image/png' },
+        { url: '/32×32.png', sizes: '32x32', type: 'image/png' },
+        { url: '/192×192.png', sizes: '192x192', type: 'image/png' },
+        { url: '/512×512.png', sizes: '512x512', type: 'image/png' },
+      ],
+      apple: [
+        { url: '/180×180.png', sizes: '180x180', type: 'image/png' },
+      ],
+    },
+  };
+}
 
 export async function generateStaticParams() {
   return [{ lang: "en" }, { lang: "ar" }];
@@ -24,7 +63,7 @@ export default async function RootLayout({
   const { lang } = await params;
   return (
     <html lang={lang} dir={lang === "ar" ? "rtl" : "ltr"}>
-      <body className={`${inter.variable} ${cairo.variable} antialiased min-h-screen bg-[var(--background)] text-[var(--foreground)]`}>
+      <body className={`${inter.variable} ${cairo.variable} antialiased min-h-screen text-[var(--text-primary)]`}>
         {children}
       </body>
     </html>

@@ -6,26 +6,26 @@ export default function ProductGrid({ dict }: { dict: any }) {
       id: 1,
       name: "Classic NFC Card",
       price: "$29.99",
-      color: "bg-[var(--color-primary)]",
+      color: "bg-[var(--text-primary)]/10",
     },
     {
       id: 2,
       name: "Premium Metal Card",
       price: "$59.99",
-      color: "bg-[var(--color-accent)]",
+      color: "bg-[var(--text-primary)]/20",
     },
     {
       id: 3,
       name: "Smart Keyfob",
       price: "$39.99",
-      color: "bg-[var(--color-secondary)]",
+      color: "bg-[var(--text-primary)]/30",
     }
   ];
 
   return (
-    <section className="relative z-30 bg-[var(--background)] py-32 px-6">
+    <section className="relative z-30 bg-transparent py-32 px-6">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tighter mb-16 text-[var(--foreground)] border-b-8 border-[var(--color-primary)] pb-4 inline-block">
+        <h2 className="text-4xl md:text-5xl font-black uppercase tracking-tighter mb-16 text-[var(--text-primary)] border-b-8 border-[var(--text-primary)] pb-4 inline-block rounded-none">
           {dict.products.title}
         </h2>
         

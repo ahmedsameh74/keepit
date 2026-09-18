@@ -11,5 +11,45 @@
   "products": {
     "title": "أفضل هدايا NFC مبيعاً",
     "buyNow": "اشتري الآن"
+  },
+  "login": {
+    "title": "مرحباً بعودتك",
+    "subtitle": "يرجى إدخال بياناتك لتسجيل الدخول",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
+    "passwordLabel": "كلمة المرور",
+    "passwordPlaceholder": "أدخل كلمة المرور",
+    "submit": "تسجيل الدخول",
+    "forgotPassword": "نسيت كلمة المرور؟",
+    "noAccount": "ليس لديك حساب؟",
+    "signUp": "إنشاء حساب"
+  },
+  "bookEvent": {
+    "title": "احجز فعالية",
+    "subtitle": "جدول تجربتك التفاعلية القادمة",
+    "nameLabel": "الاسم الكامل",
+    "namePlaceholder": "أدخل اسمك الكامل",
+    "emailLabel": "البريد الإلكتروني",
+    "emailPlaceholder": "أدخل بريدك الإلكتروني",
+    "eventTypeLabel": "نوع الفعالية",
+    "dateLabel": "تاريخ الفعالية",
+    "guestsLabel": "عدد الحضور",
+    "guestsPlaceholder": "مثال: 50",
+    "submit": "احجز الفعالية"
+  },
+  "shopHeader": {
+    "title": "المتجر",
+    "subtitle": "استكشف مجموعتنا المتميزة من منتجات NFC"
+  },
+  "footer": {
+    "title": "KEEP IT",
+    "description": "تجارب NFC متميزة",
+    "links": "روابط سريعة",
+    "social": "تواصل معنا",
+    "rights": "© 2026 Keep It. جميع الحقوق محفوظة."
+  },
+  "seo": {
+    "title": "Keep It - خلي ذكرياتك موجودة على طول",
+    "description": "استكشف مستقبل التواصل الرقمي مع بطاقات Keep It المتميزة ومنصتنا التفاعلية."
   }
 }
