@@ -6,11 +6,11 @@
   },
   "hero": {
     "title": "Keep It",
-    "subtitle": "It?! Keep your memories forever."
+    "subtitle": "Keep your memories alive forever, with just one tap."
   },
   "products": {
-    "title": "Best Selling NFC Gifts",
-    "buyNow": "Buy Now"
+    "title": "Best Selling Memory Cards",
+    "buyNow": "Order Now"
   },
   "login": {
     "title": "Welcome Back",
@@ -25,8 +25,8 @@
     "signUp": "Sign up"
   },
   "bookEvent": {
-    "title": "Book an Event",
-    "subtitle": "Schedule your next interactive experience",
+    "title": "Book Your Event",
+    "subtitle": "Capture and immortalize the memories of your upcoming event",
     "nameLabel": "Full Name",
     "namePlaceholder": "Enter your full name",
     "emailLabel": "Email Address",
@@ -35,21 +35,21 @@
     "dateLabel": "Event Date",
     "guestsLabel": "Number of Guests",
     "guestsPlaceholder": "e.g. 50",
-    "submit": "Book Event"
+    "submit": "Confirm Booking"
   },
   "shopHeader": {
-    "title": "The Shop",
-    "subtitle": "Explore our premium NFC collection"
+    "title": "The Keep It Shop",
+    "subtitle": "Order customized NFC cards filled with special memories to gift your loved ones on any occasion."
   },
   "footer": {
     "title": "KEEP IT",
-    "description": "Premium NFC Experiences",
+    "description": "Custom NFC cards to save your most precious memories.",
     "links": "Quick Links",
     "social": "Connect",
     "rights": "© 2026 Keep It. All rights reserved."
   },
   "seo": {
     "title": "Keep It - Keep your memories forever.",
-    "description": "Experience the future of digital networking with Keep It's premium NFC cards and interactive platform."
+    "description": "Save memories from any event on NFC cards, or order a customized card filled with special moments to gift a loved one on any occasion."
   }
 }

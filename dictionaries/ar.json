@@ -1,55 +1,55 @@
 {
   "nav": {
     "shop": "المتجر",
-    "bookEvent": "احجز فعالية",
-    "login": "تسجيل الدخول"
+    "bookEvent": "احجز إيفينت",
+    "login": "دخول"
   },
   "hero": {
     "title": "Keep It",
-    "subtitle": ""
+    "subtitle": "خلي ذكرياتك تعيش معاك على طول، بلمسة واحدة."
   },
   "products": {
-    "title": "أفضل هدايا NFC مبيعاً",
-    "buyNow": "اشتري الآن"
+    "title": "أجمد كروت للذكريات",
+    "buyNow": "اطلب دلوقتي"
   },
   "login": {
-    "title": "مرحباً بعودتك",
-    "subtitle": "يرجى إدخال بياناتك لتسجيل الدخول",
-    "emailLabel": "البريد الإلكتروني",
-    "emailPlaceholder": "أدخل بريدك الإلكتروني",
-    "passwordLabel": "كلمة المرور",
-    "passwordPlaceholder": "أدخل كلمة المرور",
-    "submit": "تسجيل الدخول",
-    "forgotPassword": "نسيت كلمة المرور؟",
-    "noAccount": "ليس لديك حساب؟",
-    "signUp": "إنشاء حساب"
+    "title": "أهلاً بيك من تاني",
+    "subtitle": "دخل بياناتك عشان تفتح حسابك",
+    "emailLabel": "الإيميل بتاعك",
+    "emailPlaceholder": "اكتب الإيميل هنا",
+    "passwordLabel": "الباسورد",
+    "passwordPlaceholder": "اكتب الباسورد هنا",
+    "submit": "ادخل",
+    "forgotPassword": "نسيت الباسورد؟",
+    "noAccount": "معندكش حساب؟",
+    "signUp": "سجل معانا"
   },
   "bookEvent": {
-    "title": "احجز فعالية",
-    "subtitle": "جدول تجربتك التفاعلية القادمة",
-    "nameLabel": "الاسم الكامل",
-    "namePlaceholder": "أدخل اسمك الكامل",
-    "emailLabel": "البريد الإلكتروني",
-    "emailPlaceholder": "أدخل بريدك الإلكتروني",
-    "eventTypeLabel": "نوع الفعالية",
-    "dateLabel": "تاريخ الفعالية",
-    "guestsLabel": "عدد الحضور",
-    "guestsPlaceholder": "مثال: 50",
-    "submit": "احجز الفعالية"
+    "title": "احجز الإيفينت بتاعك",
+    "subtitle": "سجل ذكريات الإيفينت الجاي وخلّد اللحظة",
+    "nameLabel": "الاسم بالكامل",
+    "namePlaceholder": "اكتب اسمك هنا",
+    "emailLabel": "الإيميل بتاعك",
+    "emailPlaceholder": "اكتب الإيميل هنا",
+    "eventTypeLabel": "نوع الإيفينت",
+    "dateLabel": "ميعاد الإيفينت",
+    "guestsLabel": "عدد المعازيم",
+    "guestsPlaceholder": "مثلاً: 50",
+    "submit": "تأكيد الحجز"
   },
   "shopHeader": {
-    "title": "المتجر",
-    "subtitle": "استكشف مجموعتنا المتميزة من منتجات NFC"
+    "title": "متجر Keep It",
+    "subtitle": "اطلب كروت متفصلة مخصوص عشان تهدي بيها أغلى الناس في أي مناسبة"
   },
   "footer": {
     "title": "KEEP IT",
-    "description": "تجارب NFC متميزة",
-    "links": "روابط سريعة",
-    "social": "تواصل معنا",
-    "rights": "© 2026 Keep It. جميع الحقوق محفوظة."
+    "description": "كروت NFC متفصلة عشان تحفظ أجمل ذكرياتك.",
+    "links": "لينكات سريعة",
+    "social": "تابعنا",
+    "rights": "© 2026 Keep It. كل الحقوق محفوظة."
   },
   "seo": {
     "title": "Keep It - خلي ذكرياتك موجودة على طول",
-    "description": "استكشف مستقبل التواصل الرقمي مع بطاقات Keep It المتميزة ومنصتنا التفاعلية."
+    "description": "سجل ذكريات أي إيفينت على كروت NFC، أو اطلب كارت مخصوص مجمع فيه أحلى اللحظات عشان تهديه لشخص غالي عليك في أي مناسبة."
   }
 }
