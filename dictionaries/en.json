@@ -1,8 +1,10 @@
 {
   "nav": {
     "shop": "Shop",
-    "bookEvent": "Book an Event",
-    "login": "Login"
+    "contact": "Contact Us",
+    "login": "Login",
+    "profile": "Profile",
+    "cart": "Cart"
   },
   "hero": {
     "title": "Keep It",
@@ -10,7 +12,11 @@
   },
   "products": {
     "title": "Best Selling Memory Cards",
-    "buyNow": "Order Now"
+    "buyNow": "Order Now",
+    "categories": {
+      "cards": "NFC Cards",
+      "accessories": "Accessories"
+    }
   },
   "login": {
     "title": "Welcome Back",
@@ -24,18 +30,18 @@
     "noAccount": "Don't have an account?",
     "signUp": "Sign up"
   },
-  "bookEvent": {
-    "title": "Book Your Event",
-    "subtitle": "Capture and immortalize the memories of your upcoming event",
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have any questions? We're here to help",
     "nameLabel": "Full Name",
     "namePlaceholder": "Enter your full name",
     "emailLabel": "Email Address",
     "emailPlaceholder": "Enter your email",
-    "eventTypeLabel": "Event Type",
-    "dateLabel": "Event Date",
-    "guestsLabel": "Number of Guests",
-    "guestsPlaceholder": "e.g. 50",
-    "submit": "Confirm Booking"
+    "phoneLabel": "Phone Number",
+    "phonePlaceholder": "e.g. +1 234 567 8900",
+    "messageLabel": "Your Message",
+    "messagePlaceholder": "Write your inquiry or message here...",
+    "submit": "Send Message"
   },
   "shopHeader": {
     "title": "The Keep It Shop",
@@ -51,5 +57,47 @@
   "seo": {
     "title": "Keep It - Keep your memories forever.",
     "description": "Save memories from any event on NFC cards, or order a customized card filled with special moments to gift a loved one on any occasion."
+  },
+  "profile": {
+    "title": "My Profile",
+    "subtitle": "Update your details and gallery",
+    "bgImageLabel": "Background Image",
+    "bgImagePlaceholder": "Upload background image",
+    "descLabel": "Description",
+    "descPlaceholder": "Write a description about yourself...",
+    "galleryLabel": "Image Gallery",
+    "galleryPlaceholder": "Upload gallery images",
+    "musicLabel": "Music URLs",
+    "musicPlaceholder": "Enter music link here",
+    "addMusic": "Add another link",
+    "save": "Save Changes"
+  },
+  "orderForm": {
+    "title": "Order Details",
+    "subtitle": "Provide your details to customize this card",
+    "nameLabel": "Name on Card",
+    "namePlaceholder": "Enter name",
+    "messageLabel": "Message (Optional)",
+    "messagePlaceholder": "Write a short message",
+    "playlistLabel": "Music Playlist URL",
+    "playlistPlaceholder": "e.g. Spotify or YouTube link",
+    "dateLabel": "Preferred Date",
+    "submit": "Add to Cart"
+  },
+  "cart": {
+    "title": "Your Cart",
+    "empty": "Your cart is empty. Go back and add some products!",
+    "backToShop": "Back to Shop",
+    "total": "Total",
+    "checkout": "Checkout",
+    "nameOnCard": "Name:",
+    "message": "Message:",
+    "playlist": "Playlist:",
+    "date": "Date:",
+    "deliveryTitle": "Delivery Details",
+    "deliveryName": "Full Name",
+    "deliveryPhone": "Phone Number",
+    "deliveryAddress": "Full Shipping Address",
+    "confirmOrder": "Confirm Order (WhatsApp)"
   }
 }

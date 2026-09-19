@@ -42,7 +42,7 @@ export default function Hero({ dict }: { dict: any }) {
       <div className="sticky top-0 h-screen w-full overflow-hidden flex items-center justify-center">
         
         {/* Background Decorative Element */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[var(--text-primary)]/5 to-[var(--bg-primary)] pointer-events-none" />
+        <div className="absolute inset-0 pointer-events-none" />
 
         {/* Brutalist Background Text */}
         <div className="absolute inset-0 pointer-events-none z-0 flex items-center justify-center overflow-hidden">

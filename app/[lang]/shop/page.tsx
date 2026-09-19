@@ -32,7 +32,7 @@ export default async function ShopPage({
           </p>
         </div>
 
-        <ProductGrid dict={dict} />
+        <ProductGrid dict={dict} lang={lang} />
       </div>
       
       <Footer dict={dict} lang={lang} />

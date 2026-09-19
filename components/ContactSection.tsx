@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { Calendar, ArrowRight } from "lucide-react";
 
-export default function BookEventSection({ dict, lang }: { dict: any; lang: string }) {
+export default function ContactSection({ dict, lang }: { dict: any; lang: string }) {
   const isRtl = lang === "ar";
   
   return (
@@ -24,19 +24,19 @@ export default function BookEventSection({ dict, lang }: { dict: any; lang: stri
         
         <Calendar className="w-16 h-16 mb-8 relative z-10" />
         <h2 className="text-5xl md:text-7xl font-black uppercase tracking-tighter mb-6 relative z-10">
-          {dict.bookEvent.title}
+          {dict.contact.title}
         </h2>
         <p className="text-xl md:text-2xl font-medium mb-12 max-w-2xl relative z-10 opacity-90">
-          {dict.bookEvent.subtitle}
+          {dict.contact.subtitle}
         </p>
         
-        <Link href={`/${lang}/book-event`} className="relative z-10 w-full sm:w-auto">
+        <Link href={`/${lang}/contact`} className="relative z-10 w-full sm:w-auto">
           <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="group flex justify-center items-center gap-4 bg-[var(--cta-bg)] text-[var(--cta-text)] border-4 border-[var(--bg-primary)] py-5 px-10 text-xl font-black uppercase tracking-widest hover:bg-[var(--bg-primary)] hover:text-[var(--text-primary)] transition-colors"
           >
-            <span>{dict.bookEvent.submit}</span>
+            <span>{dict.contact.submit}</span>
             <ArrowRight className={`w-8 h-8 group-hover:translate-x-2 transition-transform ${isRtl ? 'rotate-180 group-hover:-translate-x-2' : ''}`} />
           </motion.div>
         </Link>

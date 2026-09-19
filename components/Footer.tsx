@@ -27,9 +27,9 @@ export default function Footer({ dict, lang }: { dict: any; lang: string }) {
                   {dict.nav.shop}
                 </Link>
               </li>
-              <li>
-                <Link href={`/${lang}/book-event`} className="text-base font-semibold hover:opacity-70 transition-opacity">
-                  {dict.nav.bookEvent}
+              <li className="mb-2">
+                <Link href={`/${lang}/contact`} className="text-base font-semibold hover:opacity-70 transition-opacity">
+                  {dict.nav.contact}
                 </Link>
               </li>
               <li>

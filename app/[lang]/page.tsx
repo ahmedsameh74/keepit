@@ -2,7 +2,7 @@ import { getDictionary } from "../../dictionaries/getDictionary";
 import Navbar from "../../components/Navbar";
 import Hero from "../../components/Hero";
 import ProductGrid from "../../components/ProductGrid";
-import BookEventSection from "../../components/BookEventSection";
+import ContactSection from "../../components/ContactSection";
 import Footer from "../../components/Footer";
 
 export default async function Page({
@@ -17,8 +17,8 @@ export default async function Page({
     <main className="min-h-screen relative bg-transparent">
       <Navbar dict={dict} lang={lang} />
       <Hero dict={dict} />
-      <ProductGrid dict={dict} />
-      <BookEventSection dict={dict} lang={lang} />
+      <ProductGrid dict={dict} limit={3} lang={lang} />
+      <ContactSection dict={dict} lang={lang} />
       <Footer dict={dict} lang={lang} />
     </main>
   );

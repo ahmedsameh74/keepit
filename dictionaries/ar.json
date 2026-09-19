@@ -1,8 +1,10 @@
 {
   "nav": {
     "shop": "المتجر",
-    "bookEvent": "احجز إيفينت",
-    "login": "دخول"
+    "contact": "تواصل معنا",
+    "login": "دخول",
+    "profile": "حسابي",
+    "cart": "عربتك"
   },
   "hero": {
     "title": "Keep It",
@@ -10,7 +12,11 @@
   },
   "products": {
     "title": "أجمد كروت للذكريات",
-    "buyNow": "اطلب دلوقتي"
+    "buyNow": "اطلب دلوقتي",
+    "categories": {
+      "cards": "كروت NFC",
+      "accessories": "إكسسوارات"
+    }
   },
   "login": {
     "title": "أهلاً بيك من تاني",
@@ -24,18 +30,18 @@
     "noAccount": "معندكش حساب؟",
     "signUp": "سجل معانا"
   },
-  "bookEvent": {
-    "title": "احجز الإيفينت بتاعك",
-    "subtitle": "سجل ذكريات الإيفينت الجاي وخلّد اللحظة",
+  "contact": {
+    "title": "تواصل معنا",
+    "subtitle": "لو عندك أي استفسار، إحنا هنا عشانك",
     "nameLabel": "الاسم بالكامل",
     "namePlaceholder": "اكتب اسمك هنا",
     "emailLabel": "الإيميل بتاعك",
     "emailPlaceholder": "اكتب الإيميل هنا",
-    "eventTypeLabel": "نوع الإيفينت",
-    "dateLabel": "ميعاد الإيفينت",
-    "guestsLabel": "عدد المعازيم",
-    "guestsPlaceholder": "مثلاً: 50",
-    "submit": "تأكيد الحجز"
+    "phoneLabel": "رقم التليفون",
+    "phonePlaceholder": "مثلاً: 01012345678",
+    "messageLabel": "رسالتك",
+    "messagePlaceholder": "اكتب رسالتك أو استفسارك هنا...",
+    "submit": "إرسال"
   },
   "shopHeader": {
     "title": "متجر Keep It",
@@ -51,5 +57,47 @@
   "seo": {
     "title": "Keep It - خلي ذكرياتك موجودة على طول",
     "description": "سجل ذكريات أي إيفينت على كروت NFC، أو اطلب كارت مخصوص مجمع فيه أحلى اللحظات عشان تهديه لشخص غالي عليك في أي مناسبة."
+  },
+  "profile": {
+    "title": "حسابي",
+    "subtitle": "عدل بياناتك وصورك من هنا",
+    "bgImageLabel": "صورة الغلاف",
+    "bgImagePlaceholder": "ارفع صورة غلاف",
+    "descLabel": "الوصف",
+    "descPlaceholder": "اكتب وصف لحسابك...",
+    "galleryLabel": "معرض الصور",
+    "galleryPlaceholder": "ارفع صور لمعرضك",
+    "musicLabel": "لينكات المزيكا",
+    "musicPlaceholder": "حط لينك الأغنية هنا",
+    "addMusic": "ضيف لينك كمان",
+    "save": "حفظ التعديلات"
+  },
+  "orderForm": {
+    "title": "تفاصيل الطلب",
+    "subtitle": "دخل بياناتك عشان نفصل لك الكارت",
+    "nameLabel": "الاسم على الكارت",
+    "namePlaceholder": "اكتب الاسم هنا",
+    "messageLabel": "رسالة (اختياري)",
+    "messagePlaceholder": "اكتب رسالة صغيرة",
+    "playlistLabel": "لينك الأغاني",
+    "playlistPlaceholder": "حط لينك Spotify او YouTube",
+    "dateLabel": "التاريخ المناسب",
+    "submit": "أضف للسلة"
+  },
+  "cart": {
+    "title": "عربتك",
+    "empty": "العربة فاضية. ارجع للمتجر واختار اللي يعجبك!",
+    "backToShop": "الرجوع للمتجر",
+    "total": "الإجمالي",
+    "checkout": "إتمام الطلب",
+    "nameOnCard": "الاسم:",
+    "message": "الرسالة:",
+    "playlist": "لينك المزيكا:",
+    "date": "التاريخ:",
+    "deliveryTitle": "بيانات التوصيل",
+    "deliveryName": "الاسم بالكامل",
+    "deliveryPhone": "رقم التليفون",
+    "deliveryAddress": "عنوان التوصيل بالتفصيل",
+    "confirmOrder": "تأكيد الطلب (واتساب)"
   }
 }

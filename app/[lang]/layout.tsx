@@ -6,6 +6,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const cairo = Cairo({ subsets: ["arabic"], variable: "--font-cairo" });
 
 import { getDictionary } from "../../dictionaries/getDictionary";
+import StoreProvider from "../../components/StoreProvider";
+import { Toaster } from "react-hot-toast";
 
 export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
   const { lang } = await params;
@@ -65,7 +67,23 @@ export default async function RootLayout({
   return (
     <html lang={lang} dir={lang === "ar" ? "rtl" : "ltr"}>
       <body className={`${inter.variable} ${cairo.variable} antialiased min-h-screen text-[var(--text-primary)]`}>
-        {children}
+        <StoreProvider>
+          {children}
+          <Toaster 
+            position="bottom-right"
+            toastOptions={{
+              className: 'border-4 border-black font-bold uppercase tracking-widest bg-[var(--bg-primary)] text-[var(--text-primary)] shadow-[4px_4px_0px_0px_black] rounded-none',
+              style: {
+                borderRadius: '0',
+                border: '4px solid black',
+                padding: '16px',
+                color: 'var(--text-primary)',
+                background: 'var(--bg-primary)',
+                boxShadow: '4px 4px 0px 0px black'
+              },
+            }}
+          />
+        </StoreProvider>
       </body>
     </html>
   );
